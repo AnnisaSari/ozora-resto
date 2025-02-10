@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Zen+Antique+Soft&display=swap');
+
+* {
+    font-family: "Zen Antique Soft", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 30px;
+    color: #ffff;
+}
+
+body {
+    background: url(bg-bunga.jpg);
+    background-repeat: repeat;
+}
+
+#wrapper {
+    width: 100%;
+    max-width: 990px;
+    margin: 0 auto;
+    background-color: #4f3235;
+    height: 2700px;
+}
+
+#top {
+    position: relative;
+}
+
+#top img {
+    display: block;
+    width: 100%;
+    max-width: 990px;
+}
+
+#Menu ul {
+    content: '';
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+#Menu ul li {
+    width: 32%;
+}
+
+#Menu ul li img {
+    width: 100%;
+    display: block;
+}
+
+#Menu a:hover {
+    opacity: 0.7;
+}
+
+#Menu h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#Menu {
+    background-image: url(../img/Background\ For\ TOC.png);
+    background-color: #4f3235;
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    max-width: 990px;
+}
+
+.px-35 {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+#ToC {
+    background-image: url(../img/Sakura\ BG.png);
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    max-width: 990px;
+    flex-wrap: wrap; /* bungkus elemen biar muat */ /* jaga jarak aman antar elemen */
+    padding: 10px 0px 10px;
+    height: 1745px;
+    max-height: fit-content;
+}
+
+.ramen1 {
+    width: 100%; /* atur lebar tiap gambar */
+    max-width: 990px;
+    margin-bottom: 10px; /* jarak bawah tiap gambar */
+    position: relative;
+    display: block;
+    order: 1;
+}
+
+.ramen2 {
+    width: 100%; /* atur lebar tiap gambar */
+    max-width: 990px;
+    margin-bottom: 10px; /* jarak bawah tiap gambar */
+    position: relative;
+    display: block;
+}
+
+.ramen3 {
+    width: 100%; /* atur lebar tiap gambar */
+    max-width: 990px;
+    margin-bottom: 10px; /* jarak bawah tiap gambar */
+    position: relative;
+    display: block;
+}
+
+#ToC h2 {
+    position: absolute;
+    writing-mode: vertical-rl;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 720px;
+    color: #fff5d0;
+    font-size: 33px;
+    order: 2;
+}
+
+.ramen1 p {
+    position: absolute;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 540px;
+    color: #ffff;
+    font-size: 20px;
+    order: 2;
+}
+
+#ToC h3 {
+    position: absolute;
+    writing-mode: vertical-rl;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 180px;
+    color:  #fff5d0;
+    font-size: 33px;
+}
+
+.ramen2 p {
+    position: absolute;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    color: #ffff;
+    font-size: 20px;
+}
+
+#ToC h4 {
+    position: absolute;
+    writing-mode: vertical-rl;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 700px;
+   color: #fff5d0;
+   font-size: 33px;
+}
+
+.ramen3 p {
+    position: absolute;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 510px;
+    color: #ffff;
+    font-size: 20px;
+}
+
+#ToC img {
+    width: 100%;
+    max-width: 990px;
+    display: block; /* ubah display ke block utk gambar */
+}
+
+.Kupon {
+    position: relative;
+}
+.Kupon a:hover{
+    transform:scale(1.1);
+}
+
+#ToC .Akses {
+    position: relative;
+    width: 100%;
+    max-width: 990px;
+    margin-top: 1000px;
+    display: block;
+}
+
+.Akses {
+    position: relative;
+    width: 100%;
+    max-width: 990px;
+    display: block;
+    flex-wrap: wrap; /* bungkus elemen biar muat */
+    justify-content: space-between; /* jaga jarak aman antar elemen */
+}
+.Akses img{
+    width: 100%;
+}
